@@ -1,0 +1,6 @@
+services:
+  nginx:
+    build: .
+    ports:
+      - 8001:80
+      - 1935:1935
